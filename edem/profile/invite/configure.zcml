@@ -12,7 +12,7 @@
 
   <browser:resource
     layer="edem.skin.interfaces.IEDemLayer"
-    name="gs-profile-invite-respond-20130626.js"
+    name="edem-profile-invite-respond-20140403.js"
     file="browser/javascript/respond-min.js" 
     permission="zope2.Public"/>
     

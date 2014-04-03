@@ -215,7 +215,7 @@
     </div><!--gs-profile-invite-initial-response-->
     <tal:block metal:fill-slot="javascript">
       <script type="text/javascript"
-              src="/++resource++gs-profile-invite-respond-20130626.js" 
+              src="/++resource++edem-profile-invite-respond-20140403.js" 
               defer="true"> </script>
       <script type="text/javascript" 
               src="/++resource++gs-content-js-required-min-20130517.js" 
