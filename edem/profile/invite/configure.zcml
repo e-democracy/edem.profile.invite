@@ -3,6 +3,11 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five">
 
+  <browser:resource
+    layer="edem.skin.interfaces.IEDemLayer"
+    name="gs-profile-invite-respond-20130626.js"
+    file="browser/javascript/respond-min.js" 
+    permission="zope2.Public"/>
     
 </configure>
 
