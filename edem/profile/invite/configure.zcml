@@ -3,6 +3,13 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five">
 
+  <browser:page
+    layer="edem.skin.interfaces.IEDemLayer"
+    name="initial_response.html"
+    for="Products.CustomUserFolder.interfaces.ICustomUser"
+    class=".initialresponse.InitialResponseForm"
+    permission="zope2.ManageProperties" />
+
   <browser:resource
     layer="edem.skin.interfaces.IEDemLayer"
     name="gs-profile-invite-respond-20130626.js"
